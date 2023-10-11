@@ -34,6 +34,7 @@ We will now configure the switch to be accessible via SSH on the 10.0.0.2 IP add
 - Set the domain name to "cisco.ptk": `ip domain-name cisco.ptk`
 - Generate an RSA key pair for secure communication with a key size of 1024 bits: `crypto key generate rsa`, than tell it to generate `1024` bit long key
 - Create a username "admin" with the password "cisco": `username admin password cisco`
+- Change the SSH version to 2: `ip ssh version 2`
 - Configure VTY (telnet/SSH) access password to "cisco": `line vty 0 15`, `password cisco`
 - Exit VTY configuration mode: `exit`
 - Save the current configuration to the startup configuration file for persistence: `copy running-config startup-config`
