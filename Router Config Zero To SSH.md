@@ -20,7 +20,7 @@ Open the Terminal app on the PC, connect to the router
 - Set the hostname to "Router-1": `hostname Router-1`
 - Enable password encryption for security: `service password-encryption`
 - Set the secret password for privileged mode to "cisco": `enable secret cisco`
-- Enter GigabitEthernet 0/0/0 interface configuration mode: `interface g0/0/0`
+- Enter GigabitEthernet 0/0/0 interface configuration mode: `interface g0/0/0` (Please, note, that the interface name might be different depending on the hardware you chose. You can find all interface names by exiting the config and in using en mode `show ip interface brief`)
 - Assign the IPv4 address "10.0.0.1" with a subnet mask of "255.255.255.0" to the interface: `ip address 10.0.0.1 255.255.255.0`
 - Assign the IPv6 address "2001:dead:beef::1/64" to the interface: `ipv6 address 2001:dead:beef::1/64`
 - Add the IPv6 link-local address to the interface as well: `ipv6 address fe80::1 link-local`

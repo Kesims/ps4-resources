@@ -36,7 +36,7 @@ We will now configure the switch to be accessible via SSH on the 10.0.0.2 IP add
 - Create a username "admin" with the password "cisco": `username admin password cisco`
 - Change the SSH version to 2: `ip ssh version 2`
 - Configure VTY (telnet/SSH) access password to "cisco": `line vty 0 15`, `password cisco`
-- Exit VTY configuration mode: `exit`
+- Exit VTY configuration mode: `exit`, then exit again from the config
 - Save the current configuration to the startup configuration file for persistence: `copy running-config startup-config`
 
 Now you can open the Telnet/SSH Client and connect to the switch.
