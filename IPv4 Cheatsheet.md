@@ -113,7 +113,9 @@ You can check out the table on the top of this page to see the CIDR notation for
 ### How to Calculate Subnets
 Generally the assignment is to take a given IP address and subnet mask and figure out the network ID, broadcast address, and valid IP address range for that subnet.
 
-The steps to do this are as follows:
+Let's take a look at `132.51.12.43 /27` example:
+
+The steps are following:
 1) Look at the subnet mask and figure out the **size of the subnet**. You can do this using a general formula: `2^(32 - subnet mask)`. For example, if the subnet mask is /27, then the formula would be `2^(32 - 27) = 2^5 = 32`. This means that the subnet has 32 IP addresses.
 2) Calculate the number of **usable IP adresses** in the subnet. This can be done using the formula `subnet_size - 2`. In case of the previous example, the number of usable IP addresses would be `32 - 2 = 30`.
 3) Calculate the **network ID**. All subnets have to go in order in the IP address space, so the network ID is always the first IP address in the subnet. For example, if the IP address is `132.51.12.43` and the subnet mask is `/27`, then the network ID would be `132.51.12.32`, as it is clearly in the second available subnet. (There is a /27 subnet of x.x.x.0 - x.x.x.31, then x.x.x.32 - x.x.x.63, etc.)
