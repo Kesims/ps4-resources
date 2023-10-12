@@ -8,4 +8,4 @@
 - IPv4: [IPv4 Cheatsheet](./network_addressing/IPv4%20Cheatsheet.md)
   - Subnetting: [How to calculate subnets from IP and Mask](./network_addressing/IPv4%20Cheatsheet.md#how-to-calculate-subnets)
 - IPv6: [IPv6 Cheatsheet](https://github.com/onemarcfifty/cheat-sheets/blob/main/networking/ipv6.md) (External repository, credits to @onemarcfifty
-  )
+  - IPv6 hextets: [Recommended IPv6 Addresses](./network_addressing/IPv6%20Cool%20Hextets.md)
