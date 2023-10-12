@@ -6,3 +6,4 @@
 
 ### IP Addressing Cheat Sheets: 
 - IPv4: [IPv4 Cheatsheet](./IPv4%20Cheatsheet.md)
+  - Subnetting: [How to calculate subnets from IP and Mask](./IPv4%20Cheatsheet.md#how-to-calculate-subnets)
