@@ -7,13 +7,13 @@
 - Connect the PC and 2960 using straight-through cable
 
 
-![](./img/pc_network.png)
+![](../img/pc_network.png)
 
 ## Prepare the PC
 
 - Open the PC, enter its IP configuration and fill in local network parameters
 
-![](./img/switch_ip_config.png)
+![](../img/switch_ip_config.png)
 
 - Close the IP configuration, open Terminal app and connect
 
@@ -41,7 +41,7 @@ We will now configure the switch to be accessible via SSH on the 10.0.0.2 IP add
 
 Now you can open the Telnet/SSH Client and connect to the switch.
 
-![](./img/pc_ssh_connect.png)
+![](../img/pc_ssh_connect.png)
 
 
 When prompted for password, enter `cisco`

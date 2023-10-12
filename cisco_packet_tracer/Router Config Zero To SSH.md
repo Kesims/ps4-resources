@@ -6,7 +6,7 @@ Previously we have configured switch to be accessible from the PC, now we will a
 - Connect the PC to the router using serial cable, from RS-232 port to the Console.
 - Connect the router to the switch using straight-through cable
 
-![](./img/router_network.png)
+![](../img/router_network.png)
 
 
 ## Configure the router
@@ -36,6 +36,6 @@ Open the Terminal app on the PC, connect to the router
 
 Now you can open the Telnet/SSH Client and connect to the router using the 10.0.0.1 address, or the 2001:dead:beef::1 address.
 
-![](./img/router_ssh_connect.png)
+![](../img/router_ssh_connect.png)
 
 Use the `cisco` password when prompted to login.
