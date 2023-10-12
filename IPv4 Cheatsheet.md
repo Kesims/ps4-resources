@@ -39,20 +39,6 @@
 
 * /31 is a special case detailed in RFC 3021 where networks with this type of subnet mask can assign two IP addresses as a point-to-point link.
 
-## Decimal to Binary Conversions
-
-| Subnet Mask | Binary   | Wildcard | Binary   |
-|-------------|----------|----------|----------|
-| 0           | 00000000 | 255      | 11111111 |
-| 128         | 10000000 | 127      | 01111111 |
-| 192         | 11000000 | 63       | 00111111 |
-| 224         | 11100000 | 31       | 00011111 |
-| 240         | 11110000 | 15       | 00001111 |
-| 248         | 11111000 | 7        | 00000111 |
-| 252         | 11111100 | 3        | 00000011 |
-| 254         | 11111110 | 1        | 00000001 |
-| 255         | 11111111 | 0        | 00000000 |
-
 Wildcard is just the inverse of the subnet mask.
 
 ## Binary representation of IPv4
