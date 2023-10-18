@@ -27,11 +27,11 @@ Next we will configure the switches. You do not need a console cable, you can si
 - Disable DNS lookups: `no ip domain-lookup`
 - Set the hostname to "Switch-1": `hostname Switch-1`
 
-**Next we will configure the VLANs for Switch 1.** These are specific to the task. In this example, we will be configuring the FastEthernet interfaces 0 - 10 to VLAN 10, 11 - 20 to VLAN 20 and 21 - 24 to VLAN 30.
+**Next we will configure the VLANs for Switch 1.** These are specific to the task. In this example, we will be configuring the FastEthernet interfaces 1-10 to VLAN 10, 11-20 to VLAN 20 and 21-24 to VLAN 30.
 
-You might want to check the available interface names using `do show ip interface brief` command.
+*You might want to check the available interface names using `do show ip interface brief` command.*
 
-During the configuration, you can use `do show vlan` command to check the current VLAN configuration.
+*During the configuration, you can use `do show vlan` command to check the current VLAN configuration.*
 
 Create the VLANs and add names to them. The names are not required, but they are useful for clarity.
 - Create VLAN 10: `vlan 10`
