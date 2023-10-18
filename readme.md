@@ -3,6 +3,7 @@
 ### Cisco Packet Tracer:
 - Switch configuration including SSH: [Switch Config Zero To SSH](./cisco_packet_tracer/Switch%20Config%20Zero%20To%20SSH.md)
 - Router configuration including SSH: [Router Config Zero To SSH](./cisco_packet_tracer/Router%20Config%20Zero%20To%20SSH.md)
+- Basic VLAN configuration: [VLAN Configuration](./cisco_packet_tracer/VLAN%20Configuration.md)
 
 ### IP Addressing Cheat Sheets: 
 - IPv4: [IPv4 Cheatsheet](./network_addressing/IPv4%20Cheatsheet.md)
