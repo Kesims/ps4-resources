@@ -89,7 +89,7 @@ Now let's configure the interfaces and put them into appropriate VLAN. There sho
 
 With this, **the configuration should be done**. You can try pinging the PC6 from PC1. The ping should be successful.
 
-You can also verify the configuration using `show vlan` command on each of the routers. The output for Switch 1 should look like:
+You can also verify the configuration using `show vlan` command on each of the switches. The output for Switch 1 should look like:
 ```
 VLAN Name                             Status    Ports
 ---- -------------------------------- --------- -------------------------------
