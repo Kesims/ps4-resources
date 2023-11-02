@@ -7,6 +7,8 @@
   - Final PKT file: [vlanky.pkt](./cisco_packet_tracer/pkt_files/vlanky.pkt)
 - Advanced VLAN configuration: [VLANs With Trunks + Switch Management](./cisco_packet_tracer/VLAN%20With%20Trunks%20Configuration.md)
   - Final PKT file: [vlanky-trunks.pkt](./cisco_packet_tracer/pkt_files/vlanky-trunks.pkt)
+- InterVLAN routing: [InterVLAN Routing](./cisco_packet_tracer/InterVLAN%20Routing.md)
+  - Final PKT file: [intervlan_network.pkt](./cisco_packet_tracer/pkt_files/intervlan_network.pkt)
 
 ### IP Addressing Cheat Sheets: 
 - IPv4: [IPv4 Cheatsheet](./network_addressing/IPv4%20Cheatsheet.md)
