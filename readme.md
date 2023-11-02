@@ -17,4 +17,4 @@
   - IPv6 hextets: [Recommended IPv6 Addresses](./network_addressing/IPv6%20Cool%20Hextets.md)
 
 
-![](/img/horalky_desc.jpg)
+![](/img/horalky_desc.png)
