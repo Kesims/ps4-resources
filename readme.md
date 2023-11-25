@@ -13,11 +13,11 @@
 
 ### IP Addressing Cheat Sheets
 
-| Topic                                      | Description                                           | Final PKT File                                      |
-|--------------------------------------------|-------------------------------------------------------|-----------------------------------------------------|
-| [IPv4 Cheatsheet](./network_addressing/IPv4%20Cheatsheet.md)                                         | IPv4 Cheat Sheet                                      | -                                                   |
-| [How to calculate subnets from IP and Mask](./network_addressing/IPv4%20Cheatsheet.md#how-to-calculate-subnets) | Subnetting                                | -                                                   |
-| [IPv6 Cheatsheet](https://github.com/onemarcfifty/cheat-sheets/blob/main/networking/ipv6.md)       | IPv6 Cheat Sheet (External repository, credits to @onemarcfifty) | -                                             |
-| [Recommended IPv6 Addresses](./network_addressing/IPv6%20Cool%20Hextets.md)                           | Recommended IPv6 Addresses                            | -                                                   |
+| Topic                                      | Description                                           |
+|--------------------------------------------|-------------------------------------------------------|
+| [IPv4 Cheatsheet](./network_addressing/IPv4%20Cheatsheet.md)                                         | IPv4 Cheat Sheet                                      |                                              |
+| [How to calculate subnets from IP and Mask](./network_addressing/IPv4%20Cheatsheet.md#how-to-calculate-subnets) | Subnetting                                |                                              |
+| [IPv6 Cheatsheet](https://github.com/onemarcfifty/cheat-sheets/blob/main/networking/ipv6.md)       | IPv6 Cheat Sheet (External repository, credits to @onemarcfifty) |                                        |
+| [Recommended IPv6 Addresses](./network_addressing/IPv6%20Cool%20Hextets.md)                           | Recommended IPv6 Addresses                            |                                               |
 
 ![](/img/horalky_desc.png)
