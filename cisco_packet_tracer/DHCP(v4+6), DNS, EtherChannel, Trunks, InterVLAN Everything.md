@@ -49,6 +49,7 @@ This way each time we will be configuring new feature, it will work right away w
 - Set the hostname to "Switch-1": `hostname Switch-1`
 
 
+
 - Open the Switch-2, enter the CLI
 - Enter the en environment: `en`
 - Enter global configuration mode: `conf t`
@@ -56,11 +57,13 @@ This way each time we will be configuring new feature, it will work right away w
 - Set the hostname to "Switch-2": `hostname Switch-2`
 
 
+
 - Open the Switch-3, enter the CLI
 - Enter the en environment: `en`
 - Enter global configuration mode: `conf t`
 - Disable DNS lookups: `no ip domain-lookup`
 - Set the hostname to "Switch-3": `hostname Switch-3`
+
 
 
 - Open the Router-1, enter the CLI
@@ -83,6 +86,7 @@ This way each time we will be configuring new feature, it will work right away w
 - We will not set the trunks yet as we need to set up the EtherChannel first.
 
 
+
 - Open the Switch-2 CLI (in config mode)
 - Create VLAN 10: `vlan 10`
 - Set the name of VLAN 10 to "BLACK": `name BLACK`
@@ -94,6 +98,7 @@ This way each time we will be configuring new feature, it will work right away w
 - Set the interface FastEthernet 0/11-20 to access VLAN 20: `interface range f0/11-20`, `switchport mode access`, `switchport access vlan 20`
 - Enable PortFast on the interface FastEthernet 0/11-20: `spanning-tree portfast`
 - We will not set the trunks yet as we need to set up the EtherChannel first.
+
 
 
 - Open the Switch-3 CLI (in config mode)
@@ -119,11 +124,13 @@ This way each time we will be configuring new feature, it will work right away w
 - Set it up also for native VLAN: `spanning-tree vlan 99 priority 0`
 
 
+
 - Open the Switch-2 CLI (in config mode)
 - Enter the interface configuration mode for the first ether channel (1): `interface range f0/21-22`
 - Set the channel mode to "on": `channel-group 1 mode on`
 - Switch to the interface configuration mode for the other ether channel (3): `interface range f0/23-24`
 - Set the channel mode to "on": `channel-group 3 mode on`
+
 
 
 - Open the Switch-3 CLI (in config mode)
@@ -147,6 +154,7 @@ This way each time we will be configuring new feature, it will work right away w
 - Exit the interface configuration mode: `exit`
 
 
+
 - Open the Switch-2 CLI (in config mode)
 - Enter the interface configuration mode for the channel group 1: `interface port-channel 1`
 - Set the channel mode to "trunk": `switchport mode trunk`
@@ -156,6 +164,7 @@ This way each time we will be configuring new feature, it will work right away w
 - Set the channel mode to "trunk": `switchport mode trunk`
 - Set the allowed trunk VLANs: `switchport trunk allowed vlan 10,20,99`
 - Exit the interface configuration mode: `exit`
+
 
 
 - Open the Switch-3 CLI (in config mode)
