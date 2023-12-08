@@ -23,3 +23,9 @@
 | [Recommended IPv6 Addresses](./network_addressing/IPv6%20Cool%20Hextets.md)                                     | Recommended IPv6 Addresses                                       |                                               
 
 ![](/img/horalky_desc.png)
+
+### Little propaganda
+![](/img/ipv6_meme1.png)
+![](/img/ipv6_meme2.png)
+![](/img/ipv6_meme3.png)
+![](/img/ipv6_meme4.png)
