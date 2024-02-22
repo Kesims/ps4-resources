@@ -2,7 +2,7 @@
 
 ## Initial setup
 We will work with the following network topology:
-![img.png](../static_route_topology/img.png)
+![img.png](../img/static_route_topology.png)
 
 There will be 3 PCs and 4 routers. The goal is tho configure static routes on the routers so that the PCs can communicate with each other while being in different networks.
 For the serial lines, the routes will have higher administrative distance than the direct routes, so that the direct routes are preferred, but if the direct route is down, the serial route will be used.
@@ -11,7 +11,7 @@ For the serial lines, the routes will have higher administrative distance than t
 - Open the PC, enter its IP configuration and fill in local network parameters
 - Do not forget to set the default gateway to the router's IP address
 
-![img.png](../static_routes_pc0/img.png)
+![img.png](../img/static_route_pc0.png)
 
 This is an example for the PC0. **Fill in the details for other PCs** similar to this example, with their proper IP addresses.
 
