@@ -13,6 +13,7 @@
 | [Simple DHCP Configuration](./cisco_packet_tracer/DHCP%20Configuration.md)                                                                           | The simplest DHCP configuration possible         | [simple_dhcp.pkt](./cisco_packet_tracer/pkt_files/simple_dhcp.pkt)             | -              |
 | [DHCPv4+6 + InterVLAN + EtherChannel + DNS and more](./cisco_packet_tracer/DHCP(v4+6),%20DNS,%20EtherChannel,%20Trunks,%20InterVLAN%20Everything.md) | Complex assignment suitable for maturita         | [complex.pkt](./cisco_packet_tracer/pkt_files/complex.pkt)                     | YES            |
 | [Static Route Configuration](./cisco_packet_tracer/Static%20Route%20Configuration.md)                                                                | Static route configuration                       | [static_routes.pkt](./cisco_packet_tracer/pkt_files/static_routes.pkt)         | YES            |
+| [OSPF, Port Security, Ether Channel, DHCP](./cisco_packet_tracer/OSPF%2C%20Port%20Security%2C%20Ether%20Channel%2C%20DHCP.md)                        | OSPF, Port Security, Ether Channel, DHCP         | [ospf.pkt](./cisco_packet_tracer/pkt_files/OSPF.pkt)                           | YES            |
 
 ### IP Addressing Cheat Sheets
 
