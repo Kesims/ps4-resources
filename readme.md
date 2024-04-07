@@ -26,10 +26,9 @@
 
 
 ### ~~Tahák~~ Učební pomůcka k maturitě
-<iframe src="./printable/PS4-CheatSheet.pdf" width="100%" height="500px">
-</iframe>
 
-[Download CheatSheet PDF](./printable/PS4-CheatSheet.pdf)
+![](/printable/PS4-CheatSheet.png)
+[[Download cheatsheet PDF](./printable/PS4-CheatSheet.pdf)]
 
 ---
 
