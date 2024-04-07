@@ -24,7 +24,17 @@
 | [IPv6 Cheatsheet](https://github.com/onemarcfifty/cheat-sheets/blob/main/networking/ipv6.md)                    | IPv6 Cheat Sheet (External repository, credits to @onemarcfifty) |                                        
 | [Recommended IPv6 Addresses](./network_addressing/IPv6%20Cool%20Hextets.md)                                     | Recommended IPv6 Addresses                                       |                                               
 
+
+### ~~Tahák~~ Učební pomůcka k maturitě
+<iframe src="./printable/PS4-CheatSheet.pdf" width="100%" height="500px">
+</iframe>
+
+[Download CheatSheet PDF](./printable/PS4-CheatSheet.pdf)
+
+---
+
 ![](/img/horalky_desc.png)
+
 
 ### Little propaganda
 ![](/img/ipv6_meme1.png)
